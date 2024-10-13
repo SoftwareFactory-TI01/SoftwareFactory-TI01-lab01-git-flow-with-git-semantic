@@ -32,4 +32,10 @@ body {
     overflow: hidden;
   }
 
+  .logo {
+    float: left;
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #fff;
+  }
   
