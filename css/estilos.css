@@ -88,4 +88,53 @@ body {
     transform: scale(1.1);
   }
 
-  
+  .blog,
+.contact {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.blog {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.blog h2 {
+  text-align: center;
+}
+
+.blog-entry {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: flex-start; /* Alinea los elementos en la parte superior del contenedor flex */
+}
+
+.blog-entry img {
+  width: 400px; /* Establece el ancho de la imagen */
+  height: auto; /* Mantiene la proporción original de la imagen */
+  margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.blog-entry h3 {
+  margin-top: 0; /* Elimina el margen superior del título para que esté más cerca de la imagen */
+}
+
+.blog-entry p {
+  margin-bottom: 10px;
+}
+
+.blog-entry a {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.blog-entry a:hover {
+  background-color: #2980b9;
+}
+
