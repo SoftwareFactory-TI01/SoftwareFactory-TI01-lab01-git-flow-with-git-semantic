@@ -138,3 +138,46 @@ body {
   background-color: #2980b9;
 }
 
+.contact {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #333; /* Fondo oscuro */
+    color: #fff;
+  }
+  
+  .contact h2 {
+    text-align: center;
+  }
+  
+  #contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  #contact-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #contact-form button {
+    background-color: #3498db; /* Color azul */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contact-form button:hover {
+    background-color: #2980b9; /* Color azul más oscuro al pasar el ratón */
+  }
+  
